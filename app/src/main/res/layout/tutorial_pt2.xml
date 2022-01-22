@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.265"
-        app:srcCompat="@drawable/perfil" />
+        app:srcCompat="@drawable/tuto_tatu_2" />
 
     <ImageView
         android:id="@+id/imageView2"

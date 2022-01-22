@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">InkMe_betaV2</string>
+    <string name="siguienteButton">SIGUIENTE</string>
+    <string name="imagen">imagen</string>
 </resources>
