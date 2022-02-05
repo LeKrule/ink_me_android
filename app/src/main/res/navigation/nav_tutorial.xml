@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tutorial"
+    app:startDestination="@id/tutorialCliente1">
+    <fragment
+        android:id="@+id/tutorialCliente1"
+        android:name="im.betas.inkme_betav2.clienteTutorial1"
+        android:label="fragment_tutorial_cliente1"
+        tools:layout="@layout/fragment_tutorial_cliente1" >
+        <action
+            android:id="@+id/action_tutorialCliente1_to_tutorialCliente2"
+            app:destination="@id/tutorialCliente2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialCliente2"
+        android:name="im.betas.inkme_betav2.clienteTutorial2"
+        android:label="fragment_tutorial_cliente2"
+        tools:layout="@layout/fragment_tutorial_cliente2" >
+        <action
+            android:id="@+id/action_tutorialCliente2_to_tutorialCliente3"
+            app:destination="@id/tutorialCliente3" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorialCliente3"
+        android:name="im.betas.inkme_betav2.clienteTutorial3"
+        android:label="fragment_tutorial_cliente3"
+        tools:layout="@layout/fragment_tutorial_cliente3" />
+</navigation>

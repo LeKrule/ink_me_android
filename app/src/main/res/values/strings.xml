@@ -2,4 +2,6 @@
     <string name="app_name">InkMe_betaV2</string>
     <string name="siguienteButton">SIGUIENTE</string>
     <string name="imagen">imagen</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -12,6 +12,15 @@
         <entry key="..\:/Users/manol/AndroidStudioProjects/InkMe_betaV2/app/src/main/res/layout/tutorial_tatu_pt1.xml" value="0.33" />
         <entry key="..\:/Users/manol/AndroidStudioProjects/InkMe_betaV2/app/src/main/res/layout/tutorial_tatu_pt2.xml" value="0.33" />
         <entry key="..\:/Users/manol/AndroidStudioProjects/InkMe_betaV2/app/src/main/res/layout/tutorial_tatu_pt3.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_cliente_tutorial2.xml" value="0.29030797101449274" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/fragment_cliente_tutorial2.xml" value="0.29030797101449274" />
+        <entry key="app/src/main/res/layout/fragment_tutorial_cliente1.xml" value="0.29030797101449274" />
+        <entry key="app/src/main/res/layout/fragment_tutorial_cliente2.xml" value="0.29030797101449274" />
+        <entry key="app/src/main/res/layout/fragment_tutorial_cliente3.xml" value="0.29030797101449274" />
+        <entry key="app/src/main/res/layout/tutorial_cliente_pt1.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/tutorial_cliente_pt2.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/tutorial_cliente_pt3.xml" value="0.29030797101449274" />
       </map>
     </option>
   </component>
