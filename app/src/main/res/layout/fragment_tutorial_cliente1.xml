@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/text_1" />
 
     <Button
-        android:id="@+id/siguienteButton"
+        android:id="@+id/siguienteButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="92dp"

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tutorial_nav"
+    app:startDestination="@id/tutorial_cliente_1">
+
+    <include app:graph="@navigation/tabbar_nav" />
+    <fragment
+        android:id="@+id/tutorial_cliente_1"
+        android:name="im.betas.inkme_betav2.tutorial_cliente_1"
+        android:label="tutorial_cliente_1" >
+        <action
+            android:id="@+id/action_to_tuto2"
+            app:destination="@id/tutorial_cliente_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorial_cliente_3"
+        android:name="im.betas.inkme_betav2.tutorial_cliente_3"
+        android:label="tutorial_cliente_3" >
+        <action
+            android:id="@+id/action_to_navbar"
+            app:destination="@id/tabbar_nav" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorial_cliente_2"
+        android:name="im.betas.inkme_betav2.tutorial_cliente_2"
+        android:label="tutorial_cliente_2" >
+        <action
+            android:id="@+id/action_to_tuto3"
+            app:destination="@id/tutorial_cliente_3" />
+    </fragment>
+</navigation>

@@ -11,7 +11,14 @@
         android:theme="@style/Theme.InkMe_betaV2">
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".MainNavegation"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
