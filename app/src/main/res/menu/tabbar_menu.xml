@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Lista" android:icon="@drawable/tabbar_home_icon"
+        android:id="@+id/lista"/>
+
+    <item android:title="Camara" android:icon="@drawable/tabbaricon_camara"
+        android:id="@+id/camara"/>
+
+    <item android:title="Tienda" android:icon="@drawable/tabbaricon_tienda"
+        android:id="@+id/tienda"/>
+
+    <item android:title="Perfil" android:icon="@drawable/tabbaricon_perfil"
+        android:id="@+id/perfil"/>
+</menu>
